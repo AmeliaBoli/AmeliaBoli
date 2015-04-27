@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE0A061D1AE7086600567B72 /* InfographicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0A061C1AE7086600567B72 /* InfographicsViewController.swift */; };
+		AE4913C41AECDA3700416F5F /* Amelia-Launch-Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4913C31AECDA3700416F5F /* Amelia-Launch-Screen.png */; };
+		AE999B8C1AE1F9CC0094EAFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE999B8B1AE1F9CC0094EAFE /* AppDelegate.swift */; };
+		AE999B911AE1F9CC0094EAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE999B8F1AE1F9CC0094EAFE /* Main.storyboard */; };
+		AE999B931AE1F9CC0094EAFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE999B921AE1F9CC0094EAFE /* Images.xcassets */; };
+		AE999B961AE1F9CC0094EAFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE999B941AE1F9CC0094EAFE /* LaunchScreen.xib */; };
+		AE999BA21AE1F9CC0094EAFE /* AmeliaBoliSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE999BA11AE1F9CC0094EAFE /* AmeliaBoliSampleAppTests.swift */; };
+		AE999BAE1AE1FB980094EAFE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE999BAD1AE1FB980094EAFE /* DetailViewController.swift */; };
+		AE999BB01AE1FF1D0094EAFE /* InfographicsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE999BAF1AE1FF1D0094EAFE /* InfographicsData.swift */; };
+		AEB388DB1AE9FB0000E1E48F /* LabelHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB388DA1AE9FB0000E1E48F /* LabelHandling.swift */; };
+		AEB388DD1AEAD0BB00E1E48F /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = AEB388DC1AEAD0BB00E1E48F /* FontAwesome.otf */; };
+		AEC2DCFD1AEC0663005ADDB1 /* AcknowledgementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC2DCFC1AEC0663005ADDB1 /* AcknowledgementsViewController.swift */; };
+		AEC2DCFF1AEC3E02005ADDB1 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC2DCFE1AEC3E02005ADDB1 /* DetailsTableViewController.swift */; };
+		AEF0C5DF1AECAE6700C32040 /* swissArmyKnife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF0C5DE1AECAE6700C32040 /* swissArmyKnife.jpg */; };
+		AEF0C5E11AECAE6F00C32040 /* SmashKeyboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF0C5E01AECAE6F00C32040 /* SmashKeyboard.jpg */; };
+		AEF0C5E31AECAE7700C32040 /* postIts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF0C5E21AECAE7700C32040 /* postIts.jpg */; };
+		AEF0C5E51AECAE8500C32040 /* ohioState.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF0C5E41AECAE8500C32040 /* ohioState.jpg */; };
+		AEF0C5E71AECAE8D00C32040 /* Japan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF0C5E61AECAE8D00C32040 /* Japan.jpg */; };
+		AEF0C5E91AECAE9300C32040 /* Commodore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF0C5E81AECAE9300C32040 /* Commodore.jpg */; };
+		AEF0C5EB1AECAE9A00C32040 /* Boardgames.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF0C5EA1AECAE9A00C32040 /* Boardgames.jpg */; };
+		AEF0C5ED1AECB9B500C32040 /* amelia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF0C5EC1AECB9B500C32040 /* amelia.jpg */; };
+		AEF0C5EF1AECB9C400C32040 /* WomenWhoCode.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF0C5EE1AECB9C400C32040 /* WomenWhoCode.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE999B9C1AE1F9CC0094EAFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE999B7E1AE1F9CC0094EAFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE999B851AE1F9CC0094EAFE;
+			remoteInfo = AmeliaBoliSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE0A061C1AE7086600567B72 /* InfographicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfographicsViewController.swift; sourceTree = "<group>"; };
+		AE4913C31AECDA3700416F5F /* Amelia-Launch-Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Amelia-Launch-Screen.png"; sourceTree = "<group>"; };
+		AE999B861AE1F9CC0094EAFE /* AmeliaBoli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmeliaBoli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE999B8A1AE1F9CC0094EAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE999B8B1AE1F9CC0094EAFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE999B901AE1F9CC0094EAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE999B921AE1F9CC0094EAFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE999B951AE1F9CC0094EAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AE999B9B1AE1F9CC0094EAFE /* AmeliaBoliSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmeliaBoliSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE999BA01AE1F9CC0094EAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE999BA11AE1F9CC0094EAFE /* AmeliaBoliSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeliaBoliSampleAppTests.swift; sourceTree = "<group>"; };
+		AE999BAD1AE1FB980094EAFE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AE999BAF1AE1FF1D0094EAFE /* InfographicsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfographicsData.swift; sourceTree = "<group>"; };
+		AEB388DA1AE9FB0000E1E48F /* LabelHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelHandling.swift; sourceTree = "<group>"; };
+		AEB388DC1AEAD0BB00E1E48F /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		AEC2DCFC1AEC0663005ADDB1 /* AcknowledgementsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowledgementsViewController.swift; sourceTree = "<group>"; };
+		AEC2DCFE1AEC3E02005ADDB1 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+		AEF0C5DE1AECAE6700C32040 /* swissArmyKnife.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = swissArmyKnife.jpg; sourceTree = "<group>"; };
+		AEF0C5E01AECAE6F00C32040 /* SmashKeyboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SmashKeyboard.jpg; sourceTree = "<group>"; };
+		AEF0C5E21AECAE7700C32040 /* postIts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postIts.jpg; sourceTree = "<group>"; };
+		AEF0C5E41AECAE8500C32040 /* ohioState.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ohioState.jpg; sourceTree = "<group>"; };
+		AEF0C5E61AECAE8D00C32040 /* Japan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Japan.jpg; sourceTree = "<group>"; };
+		AEF0C5E81AECAE9300C32040 /* Commodore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Commodore.jpg; sourceTree = "<group>"; };
+		AEF0C5EA1AECAE9A00C32040 /* Boardgames.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boardgames.jpg; sourceTree = "<group>"; };
+		AEF0C5EC1AECB9B500C32040 /* amelia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amelia.jpg; sourceTree = "<group>"; };
+		AEF0C5EE1AECB9C400C32040 /* WomenWhoCode.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WomenWhoCode.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE999B831AE1F9CC0094EAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE999B981AE1F9CC0094EAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE999B7D1AE1F9CC0094EAFE = {
+			isa = PBXGroup;
+			children = (
+				AE999B881AE1F9CC0094EAFE /* AmeliaBoliSampleApp */,
+				AE999B9E1AE1F9CC0094EAFE /* AmeliaBoliSampleAppTests */,
+				AE999B871AE1F9CC0094EAFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE999B871AE1F9CC0094EAFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE999B861AE1F9CC0094EAFE /* AmeliaBoli.app */,
+				AE999B9B1AE1F9CC0094EAFE /* AmeliaBoliSampleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE999B881AE1F9CC0094EAFE /* AmeliaBoliSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				AE999B8B1AE1F9CC0094EAFE /* AppDelegate.swift */,
+				AE0A061C1AE7086600567B72 /* InfographicsViewController.swift */,
+				AE999BAD1AE1FB980094EAFE /* DetailViewController.swift */,
+				AE999B8F1AE1F9CC0094EAFE /* Main.storyboard */,
+				AEC2DCFE1AEC3E02005ADDB1 /* DetailsTableViewController.swift */,
+				AEB388DA1AE9FB0000E1E48F /* LabelHandling.swift */,
+				AE999BAF1AE1FF1D0094EAFE /* InfographicsData.swift */,
+				AEC2DCFC1AEC0663005ADDB1 /* AcknowledgementsViewController.swift */,
+				AEF0C5DB1AECAE3B00C32040 /* Resource */,
+				AE999B941AE1F9CC0094EAFE /* LaunchScreen.xib */,
+				AE999B891AE1F9CC0094EAFE /* Supporting Files */,
+			);
+			path = AmeliaBoliSampleApp;
+			sourceTree = "<group>";
+		};
+		AE999B891AE1F9CC0094EAFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE999B8A1AE1F9CC0094EAFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE999B9E1AE1F9CC0094EAFE /* AmeliaBoliSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE999BA11AE1F9CC0094EAFE /* AmeliaBoliSampleAppTests.swift */,
+				AE999B9F1AE1F9CC0094EAFE /* Supporting Files */,
+			);
+			path = AmeliaBoliSampleAppTests;
+			sourceTree = "<group>";
+		};
+		AE999B9F1AE1F9CC0094EAFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE999BA01AE1F9CC0094EAFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE999BB51AE36B9F0094EAFE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AE999B921AE1F9CC0094EAFE /* Images.xcassets */,
+				AE4913C31AECDA3700416F5F /* Amelia-Launch-Screen.png */,
+				AEF0C5DE1AECAE6700C32040 /* swissArmyKnife.jpg */,
+				AEF0C5E01AECAE6F00C32040 /* SmashKeyboard.jpg */,
+				AEF0C5E21AECAE7700C32040 /* postIts.jpg */,
+				AEF0C5E41AECAE8500C32040 /* ohioState.jpg */,
+				AEF0C5E61AECAE8D00C32040 /* Japan.jpg */,
+				AEF0C5E81AECAE9300C32040 /* Commodore.jpg */,
+				AEF0C5EA1AECAE9A00C32040 /* Boardgames.jpg */,
+				AEF0C5EC1AECB9B500C32040 /* amelia.jpg */,
+				AEF0C5EE1AECB9C400C32040 /* WomenWhoCode.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AEF0C5DB1AECAE3B00C32040 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AEB388DC1AEAD0BB00E1E48F /* FontAwesome.otf */,
+				AE999BB51AE36B9F0094EAFE /* Images */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE999B851AE1F9CC0094EAFE /* AmeliaBoli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE999BA51AE1F9CC0094EAFE /* Build configuration list for PBXNativeTarget "AmeliaBoli" */;
+			buildPhases = (
+				AE999B821AE1F9CC0094EAFE /* Sources */,
+				AE999B831AE1F9CC0094EAFE /* Frameworks */,
+				AE999B841AE1F9CC0094EAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmeliaBoli;
+			productName = AmeliaBoliSampleApp;
+			productReference = AE999B861AE1F9CC0094EAFE /* AmeliaBoli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE999B9A1AE1F9CC0094EAFE /* AmeliaBoliSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE999BA81AE1F9CC0094EAFE /* Build configuration list for PBXNativeTarget "AmeliaBoliSampleAppTests" */;
+			buildPhases = (
+				AE999B971AE1F9CC0094EAFE /* Sources */,
+				AE999B981AE1F9CC0094EAFE /* Frameworks */,
+				AE999B991AE1F9CC0094EAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE999B9D1AE1F9CC0094EAFE /* PBXTargetDependency */,
+			);
+			name = AmeliaBoliSampleAppTests;
+			productName = AmeliaBoliSampleAppTests;
+			productReference = AE999B9B1AE1F9CC0094EAFE /* AmeliaBoliSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE999B7E1AE1F9CC0094EAFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = AmeliaBoli;
+				TargetAttributes = {
+					AE999B851AE1F9CC0094EAFE = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					AE999B9A1AE1F9CC0094EAFE = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = AE999B851AE1F9CC0094EAFE;
+					};
+				};
+			};
+			buildConfigurationList = AE999B811AE1F9CC0094EAFE /* Build configuration list for PBXProject "AmeliaBoli" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE999B7D1AE1F9CC0094EAFE;
+			productRefGroup = AE999B871AE1F9CC0094EAFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE999B851AE1F9CC0094EAFE /* AmeliaBoli */,
+				AE999B9A1AE1F9CC0094EAFE /* AmeliaBoliSampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE999B841AE1F9CC0094EAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF0C5E71AECAE8D00C32040 /* Japan.jpg in Resources */,
+				AEF0C5E31AECAE7700C32040 /* postIts.jpg in Resources */,
+				AEF0C5ED1AECB9B500C32040 /* amelia.jpg in Resources */,
+				AEF0C5EB1AECAE9A00C32040 /* Boardgames.jpg in Resources */,
+				AE999B911AE1F9CC0094EAFE /* Main.storyboard in Resources */,
+				AE999B961AE1F9CC0094EAFE /* LaunchScreen.xib in Resources */,
+				AEF0C5DF1AECAE6700C32040 /* swissArmyKnife.jpg in Resources */,
+				AEB388DD1AEAD0BB00E1E48F /* FontAwesome.otf in Resources */,
+				AE999B931AE1F9CC0094EAFE /* Images.xcassets in Resources */,
+				AEF0C5E11AECAE6F00C32040 /* SmashKeyboard.jpg in Resources */,
+				AEF0C5EF1AECB9C400C32040 /* WomenWhoCode.jpg in Resources */,
+				AEF0C5E51AECAE8500C32040 /* ohioState.jpg in Resources */,
+				AEF0C5E91AECAE9300C32040 /* Commodore.jpg in Resources */,
+				AE4913C41AECDA3700416F5F /* Amelia-Launch-Screen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE999B991AE1F9CC0094EAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE999B821AE1F9CC0094EAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC2DCFF1AEC3E02005ADDB1 /* DetailsTableViewController.swift in Sources */,
+				AE999BB01AE1FF1D0094EAFE /* InfographicsData.swift in Sources */,
+				AE999B8C1AE1F9CC0094EAFE /* AppDelegate.swift in Sources */,
+				AE0A061D1AE7086600567B72 /* InfographicsViewController.swift in Sources */,
+				AE999BAE1AE1FB980094EAFE /* DetailViewController.swift in Sources */,
+				AEB388DB1AE9FB0000E1E48F /* LabelHandling.swift in Sources */,
+				AEC2DCFD1AEC0663005ADDB1 /* AcknowledgementsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE999B971AE1F9CC0094EAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE999BA21AE1F9CC0094EAFE /* AmeliaBoliSampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE999B9D1AE1F9CC0094EAFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE999B851AE1F9CC0094EAFE /* AmeliaBoli */;
+			targetProxy = AE999B9C1AE1F9CC0094EAFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE999B8F1AE1F9CC0094EAFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE999B901AE1F9CC0094EAFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE999B941AE1F9CC0094EAFE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE999B951AE1F9CC0094EAFE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE999BA31AE1F9CC0094EAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE999BA41AE1F9CC0094EAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE999BA61AE1F9CC0094EAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Matthew Frederick (U8DKH9GG88)";
+				INFOPLIST_FILE = AmeliaBoliSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f71a4349-4f63-4546-971e-0e52e49b589b";
+			};
+			name = Debug;
+		};
+		AE999BA71AE1F9CC0094EAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Matthew Frederick (X27C9QVVU6)";
+				INFOPLIST_FILE = AmeliaBoliSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "72da5674-b870-4064-a901-bb51e51ea72f";
+			};
+			name = Release;
+		};
+		AE999BA91AE1F9CC0094EAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmeliaBoliSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmeliaBoliSampleApp.app/AmeliaBoliSampleApp";
+			};
+			name = Debug;
+		};
+		AE999BAA1AE1F9CC0094EAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmeliaBoliSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmeliaBoliSampleApp.app/AmeliaBoliSampleApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE999B811AE1F9CC0094EAFE /* Build configuration list for PBXProject "AmeliaBoli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE999BA31AE1F9CC0094EAFE /* Debug */,
+				AE999BA41AE1F9CC0094EAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE999BA51AE1F9CC0094EAFE /* Build configuration list for PBXNativeTarget "AmeliaBoli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE999BA61AE1F9CC0094EAFE /* Debug */,
+				AE999BA71AE1F9CC0094EAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE999BA81AE1F9CC0094EAFE /* Build configuration list for PBXNativeTarget "AmeliaBoliSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE999BA91AE1F9CC0094EAFE /* Debug */,
+				AE999BAA1AE1F9CC0094EAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE999B7E1AE1F9CC0094EAFE /* Project object */;
+}
